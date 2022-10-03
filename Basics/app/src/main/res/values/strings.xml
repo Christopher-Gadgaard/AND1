@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Basics</string>
+    <string name="i_3_ios"><![CDATA[I <3 IOS]]></string>
+    <string name="_25">25%</string>
+    <string name="textview">TextView</string>
+    <string name="push_me">Push me!</string>
+    <string name="i_m_here">I\'m here!</string>
+    <string name="i_m_confused">I\'m confused!</string>
+    <string name="wtf">WTF!?!</string>
+    <string name="discard">DISCARD</string>
+    <string name="name">Name</string>
+    <string name="upload">upload</string>
+    <string name="camera">Camera</string>
+    <string name="camera_value" />
+    <string name="singapore">Singapore</string>
+    <string name="placeholder">placeholder</string>
+</resources>
