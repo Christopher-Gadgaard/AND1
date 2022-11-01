@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="sendButton">SEND</string>
+    <string name="messageTextView">Message</string>
+    <string name="replyButton">REPLY</string>
+    <string name="go_to_email">GO TO EMAIL</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="go_to_the_web">Go to the web</string>
+    <string name="fragment_one">Fragment One</string>
+    <string name="fragment_two">Fragment Two</string>
+    <string name="title_activity_main7">MainActivity7</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
