@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/toastButton"
+        app:showAsAction="ifRoom"
+        android:title="@string/toast"
+        android:icon="@drawable/ic_baseline_local_fire_department_24"/>
+
+    <item android:id="@+id/viewItem1"
+        android:title="@string/view_1" />
+    <item android:id="@+id/viewItem2"
+        android:title="@string/view_2" />
+    <item android:id="@+id/viewItem3"
+        android:title="@string/view_3" />
+</menu>
