@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Networking</string>
+    <string name="pokedex_no"><u>Pokedex No:</u></string>
+    <string name="name"><u>Name:</u></string>
+    <string name="height"><u>Height:</u></string>
+    <string name="weight"><u>Weight:</u></string>
+    <string name="input_pokemon_name">Input Pokemon Name</string>
+    <string name="search">Search</string>
+    <string name="pokemon_picture">Pokemon Picture</string>
+</resources>
