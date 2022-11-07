@@ -11,14 +11,16 @@ public class Pokemon
     private final String imageUrl;
     private final int height;
     private final int weight;
+    private final ArrayList<String> types;
 
-    public Pokemon(int id, String name, String imageUrl, int height, int weight)
+    public Pokemon(int id, String name, String imageUrl, int height, int weight, ArrayList<String> typeName)
     {
         this.id = id;
         this.name = name;
         this.imageUrl = imageUrl;
         this.height = height;
         this.weight = weight;
+        this.types = typeName;
     }
 
     public int getId()
@@ -44,5 +46,9 @@ public class Pokemon
     public int getWeight()
     {
         return weight;
+    }
+
+    public ArrayList<String> getTypes() {
+        return types;
     }
 }

@@ -47,12 +47,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.ViewHold
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    listener.onClick(pokemons.get(getAdapterPosition()));
-                }
-            });
+            itemView.setOnClickListener(view -> listener.onClick(pokemons.get(getBindingAdapterPosition())));
             PokemonName = itemView.findViewById(R.id.PokemonName);
             PokemonNo = itemView.findViewById(R.id.PokemonNo);
         }

@@ -39,12 +39,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        viewModel.isLoading().observe(this, new Observer<Boolean>() {
-            @Override
-            public void onChanged(Boolean aBoolean) {
-                int visibility = aBoolean ? View.VISIBLE : View.INVISIBLE;
-                progressBar.setVisibility(visibility);
-            }
+        viewModel.isLoading().observe(this, aBoolean -> {
+            int visibility = aBoolean ? View.VISIBLE : View.INVISIBLE;
+            progressBar.setVisibility(visibility);
         });
     }
 

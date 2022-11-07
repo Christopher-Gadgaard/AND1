@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity
         viewModel = new ViewModelProvider(this).get(PokemonViewModel.class);
         viewModel.getSearchedPokemon().observe(this, pokemon ->
         {
-            id.setText(String.valueOf(pokemon.getId()));
+            System.out.println(pokemon.getTypes().get(0)+"here");
+           // id.setText(String.valueOf(pokemon.getId()));
+            id.setText(pokemon.getTypes().get(0));
             name.setText(pokemon.getName().substring(0,1).toUpperCase(Locale.ROOT)+ pokemon.getName().substring(1));
             height.setText(String.valueOf(pokemon.getHeight()));
             weight.setText(String.valueOf(pokemon.getWeight()));
